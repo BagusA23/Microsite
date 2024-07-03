@@ -4,7 +4,7 @@ int currentFrame = 0;
 void setup() {
   size(690, 518);
  for (int i = 0; i < gambar.length; i++) {
-    gambar[i] = loadImage("mobil (" + (i + 1) + ").gif");
+    gambar[i] = loadImage("1 (" + (i + 1) + ").gif");
   }
   frameRate(20);
 }
